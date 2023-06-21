@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naver Copy</title>
+</head>
+<body>
+    <form action="./result.html" method="get">
+            <select style="">
+            <option value="en">영어</option>
+            <option value="ko">한국어</option>
+            <option value="ja">일본어</option>
+            </select>
+        <center style="color: green;"><h1>NAVER</h1></center>
+        <center>
+    <fieldset style="width: 300px;">
+            <div>
+    
+        <input style="width: 200px;" type="text" name="id" placeholder="Username"><br>
+        <input style="width: 200px;" type="password" name="password" placeholder="Password"><br>
+        <button type="submit" style="width: 200px;">Sign in</button><br>
+        <input type="checkbox" name="stay">
+        <label for="stay">Stay Signed in</label>
+    
+    </div>
+        <h4>Easier sign in</h4>
+        <button type="button" onclick="window.open('https://www.google.com')" style="width: 200px;background-color: white;">구글</button><br>
+        <button type="button" onclick="window.open('https://www.kakaocorp.com/')" style="width: 200px;background-color: yellow;">카카오</button><br>
+        <button type="button" onclick="window.open('https://ko-kr.facebook.com/')" style="width: 200px;background-color: blue;">페이스북</button>
+        <!--
+        <fieldset style="background-color:white; width: 200px;"><a href="https://google.com">구글</a></fieldset>
+        <fieldset style="background-color:yellow;width: 200px;"><a href="https://www.kakaocorp.com/">카카오</a></fieldset>
+        <fieldset style="background-color:blue;width: 200px;"><a href="https://ko-kr.facebook.com/">페이스북</a></fieldset><br>
+    -->
+        <div>
+        <label for="road"><h4>접속경로</h4></label>
+        <input type="radio" name="road" value="internet">
+        <label for="road">인터넷 검색</label>
+        <input type="radio" name="road" value="recommend">
+        <label for="road">지인추천</label>
+        <input type="radio" name="road" value="adv">
+        <label for="road">광고</label>
+    </div>
+</fieldset>
+    </center>
+    </form>
+</body>
+</html>
